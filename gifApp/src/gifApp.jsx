@@ -5,7 +5,7 @@ import { AddCategory, GifGrilla } from "./components";
 
 export const GifApp = () => {
 
-    const [ categories, setCategories ] = useState([ 'One Punch', 'Dragon Ball' ])
+    const [ categories, setCategories ] = useState([ 'Futbol', 'Rugby' ])
 
     const onAddCategory = (NewCategory) =>{
 
